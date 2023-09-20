@@ -1,8 +1,290 @@
 /* HEADER / BANNER -> SARA // HASTA LA LINEA 200*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HEADER / BANNER -SANTI // LINEA 201 - 400 */
 
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+section {
+    background: #D8F9C8
+}
+
+section h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.ea-productos-container1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 3%;
+
+}
+
+.ea-flex-categoriaprods {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    background:  #F6FFFF;
+    border-radius: 20px;
+    box-shadow: 0px 8px 8px rgba(0,0,0,0.5);
+    margin: 0 2%;
+}
+
+.ea-flex-categoriaprods h2{
+    margin: 5%;
+    padding: 5%;
+}
+
+.ea-products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 5px;
+}
+.ea-producto {
+    display: flex;
+    width: 25%;
+    margin: 5px 3px;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.ea-producto:hover {
+    width: 30%;
+}
+
+.ea-producto * {
+   margin: 5px;
+}
+
+.ea-producto button {
+    padding:4px;
+    background: #63b864ac;
+    border-radius: 20px;
+}
+
+.ea-producto button:hover {
+    background: #D8F9C8;
+}
+
+.ea-flex-categoriaprods button:hover {
+    background: #D8F9C8;
+}
+
+.ea-stbutton_vertodo {
+    margin: 4px;
+    width: 30%;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 
 /* HEADER / BANNER -> // LINEA 201 - 600VALE */
