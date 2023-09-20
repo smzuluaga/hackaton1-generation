@@ -5,21 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <script defer src="js/script.js"></script>
+    <!-- Enlace a la hoja de estilos externa de Font awesome-->
+    <script src="https://kit.fontawesome.com/9af4a257dc.js" crossorigin="anonymous"></script>
+    <!-- Enlace a la hoja de estilos externa de Boxicon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
     <title>Document</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoArt</title>
-</head>
-<body>
 
+</head>
+<body>
     <!--HEADER / BANNER -> SARA // HASTA LA LINEA 200-->
     <header>
+        <header class="hero">
+            <nav class="nav__hero">
+                <!-- Navegación del encabezado -->
+                <div class="container nav__container">
+                    <div class="logo">
+                        <h2 class="logo__name">Logo</h2>
+                    </div>
+                    <!-- Enlaces de navegación -->
+                    <div class="links">
+                        <a href="#Inicio" class="link">Inicio</a>
+                        <a href="#Nosotros" class="link">Nosotros</a>
+                        <a href="#Productos" class="link">Productos</a>
+                        <a href="#Compras" class="link link--active">   <i class="bx bx-cart"></i> Compras </a> 
+                    </div>
+                </div>
+            </nav>
+            <!-- Sección principal del encabezado -->
+            <section class="container hero__main" id="Inicio">
+                <!-- Textos y contenido destacado -->
+                <div class="banner">
+                    <div class="capa"></div>
+                    <div class="info">
+                        <h1 class="title">Papelería Sostenible</h1>
+                    <div class="subtitle">Generando <span class="title--active">eco-nciencia</span></div>
+                    <!-- Logo Instagram -->
+                    <div class="socialmedia">
+                    <a href="acá va link papelería" class="fa-brands fa-instagram socialmedia__icon"></a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!--Tarjetas de productos banner-->
+            <section class="container cards">
+                <div class="card">
+                    <img src="img/portada_papel.jpg" alt="Papel">
+                    <h2 class="card__text">Papel</h2>
+                </div>
+                <div class="card">
+                    <img src="img/portada_pinturas.PNG" alt="Pinturas">
+                    <h2 class="card__text">Pinturas</h2>
+                </div>
+                <div class="card">
+                    <img src="img/portada_dibujo.jpg" alt="Dibujo">
+                    <h2 class="card__text">Dibujo</h2>
+                </div>
+                <div class="card">
+                    <img src="img/portada_vida.jpg" alt="Vida Diaria">
+                    <h2 class="card__text">Vida Diaria</h2>
+                </div>
+            </section>
+        </header>
     </header>
     
     
