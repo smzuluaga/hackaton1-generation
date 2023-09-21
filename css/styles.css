@@ -1,8 +1,504 @@
 /* HEADER / BANNER -> SARA // HASTA LA LINEA 200*/
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
 
 /* HEADER / BANNER -SANTI // LINEA 201 - 400 */
 
 
 
-/* HEADER / BANNER -> // LINEA 201 - 600VALE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER / BANNER -> // LINEA 400 - 600VALE */
+
+.ea-st-FooterContainerNosotros {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ea-nosotrosflex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ea-st-nosotrosTitle {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: #063d1d;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold;
+}
+
+.ea-st-nosotrosTitleh3 {
+    font-size: 20px;
+    color: #063d1d;
+    margin-bottom: 0;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold;
+}
+.ea-st-nosotros1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 30%;
+    background-color: #e5ffd8;
+    box-shadow: #063d1d;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: medium;
+}
+
+.ea-st-nosotros1-container p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    color: #063d1d;
+}
+
+.img1 {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ea-st-nosotrosEquipo{
+    display:flex;
+    flex-direction: column;
+}
+
+.ea-st-nosotrosEquipo article{
+    display:flex;
+    justify-content: center;
+}
+
+.ea-st-FooterEquipoTitle {
+    text-align: center;
+    margin-top: 70px;
+    color: #063d1d;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold;
+}
+
+.ea-st-memberCard {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ea-st-memberCard img {
+    width: 25%;
+}
+.ea-st-EquipoText {
+    text-align: justify;
+    color: #063d1d;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: medium;
+}
+
+.ea-st-EquipoName {
+    text-align: center;
+    color: #063d1d;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold,
+}
+
+
+/*FOOTER*/
+.footer-content {
+    margin-top: 50px;
+}
+
+.ea-st-FooterTitle {
+    text-align: center;
+    color: #063d1d;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold;
+}
+
+.ea-st-FooterTitle2 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold;
+
+}
+/*Form*/
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #063d1d;
+    background-color: #e5ffd8;
+    height: 600px;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: medium;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 11.2px;
+    border: none;
+    background: none;
+    outline: 0;
+    color: bisque;
+    border-bottom: 1px solid #63b864;
+}
+
+.contact-form form button {
+    background:linear-gradient(#63b864 50%, #e5ffd8 150%);
+    border: #e5ffd8;
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    color: #e5ffd8;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 115px;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold;
+}
+
+/*Barra de footer*/
+
+.barrafooter {
+    display: flex;
+    width:100%;
+    height: 60px;
+    background: linear-gradient(180deg, #65c067 0%, #e5ffd8 180%);
+    color: #063d1d;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold;
+}
+
+.barrafooter i {
+    margin-right: auto;
+    size: 30px;
+}
+
+.ea-st-FooterInfo {
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 15px;
+    line-height: 5px;
+    display: grid;
+    grid-template: 0px / 50% 50% 150%
+}
+
+.copyright {
+    width: 100%;
+    color:#063d1d;
+    padding:0;
+    margin:0;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: right;
+}
+
