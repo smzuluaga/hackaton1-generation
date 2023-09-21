@@ -1,6 +1,6 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
-  @import url('https://fonts.cdnfonts.com/css/nova-quinta-personal-use');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+ @import url('https://fonts.cdnfonts.com/css/nova-quinta-personal-use');
 
 
 /* HEADER / BANNER -> SARA // HASTA LA LINEA 200*/
@@ -29,16 +29,16 @@ body {
 }
 @keyframes banner {
     0%, 20% {
-        background-image: url("../img/fondo_banner1.jpg");
+        background-image: url("../img/banner/fondo_banner1.png");
     }
-25%, 45% {
-    background-image: url("../img/fondo_banner2.jpg");
-}
-50%, 70%{
-    background-image: url("../img/fondo_banner3.jpg");
-}
-75%, 100% {
-    background-image: url("../img/fondo_banner4.jpg");
+    25%, 45% {
+        background-image: url("../img/banner/fondo_banner2.jpg");
+    }
+    50%, 70%{
+        background-image: url("../img/banner/fondo_banner3.jpg");
+    }
+    75%, 100% {
+        background-image: url("../img/banner/fondo_banner4.jpg");
 
 }
 
@@ -178,201 +178,6 @@ body {
     font-weight: bold;
     color: #34bd12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
