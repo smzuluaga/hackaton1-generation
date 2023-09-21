@@ -1,5 +1,187 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+  @import url('https://fonts.cdnfonts.com/css/nova-quinta-personal-use');
+
+
 /* HEADER / BANNER -> SARA // HASTA LA LINEA 200*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+
+
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    width: 1400px;
+    height: 300px;
+    animation: banner 10s infinite linear alternate ;
+    background-size: 100% 100%;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    /*Keyframes banner*/
+}
+@keyframes banner {
+    0%, 20% {
+        background-image: url("../img/fondo_banner1.jpg");
+    }
+25%, 45% {
+    background-image: url("../img/fondo_banner2.jpg");
+}
+50%, 70%{
+    background-image: url("../img/fondo_banner3.jpg");
+}
+75%, 100% {
+    background-image: url("../img/fondo_banner4.jpg");
+
+}
+
+}
+.container {
+    width: 100%;
+    margin: 40px;
+    overflow: hidden;
+    padding: 20px;
+    height: auto;
+}
+.title {
+    font-size: 70px;
+    font-weight: 100;
+    color: rgb(24, 26, 27);
+    font-family: 'Nova Quinta PERSONAL USE', sans-serif;
+    text-align: center;               
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(24, 26, 27);
+    font-family: 'Montserrat' , sans-serif;
+    text-align: center;
+}
+
+.title--active {
+    color: var(--gold1); /*???*/
+    font-weight: 700;
+    color: rgb(102, 183, 45);
+    font-family: 'Antaresia', sans-serif;
+    text-align: center;
+
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.socialmedia__icon {
+    font-size: 20px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    background-color: #3bd614;
+    color: #0e0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px;
+    margin-left: 40px;
+}
+
+.container--modifier {
+    width: 100%;
+}
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--black) 0%, var(--black1) 100%);
+}
+
+.nav__hero {
+    color: #52c35d;
+    height:35px;
+    background-color: rgba(66, 195, 34, 0); /*?*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.logo__name {
+    font-size: 30px;
+}
+
+.link {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 16px;
+}
+
+.link--active {
+    color: var(--gold1); 
+    font-weight: 800;
+}
+
+.hero__main {
+    height: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; 
+}
+
+/*Tarjetas de productos*/
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    position: relative;
+
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #e6f3e0;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    z-index: 9;
+}
+
+.card__text {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #34bd12;
+}
+
+>>>>>>> bb855876cacda00194b74d83d690c233cd95dd39
 
 /* HEADER / BANNER -SANTI // LINEA 201 - 400 */
 
