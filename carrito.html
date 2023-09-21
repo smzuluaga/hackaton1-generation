@@ -6,15 +6,16 @@
     <title>Carrito Compras</title>
     <link rel="stylesheet" href="css/styles-carrito.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="js/script.js"></script>
 
 </head>
 <body>
-    <section>
+    <section class="sect-carrito">
         <div class="container-carrito">
             <div class="carrito">
                 <a href="index.html"><i class='bx bxs-x-circle'></i></a>
                 <h1>Carrito de Compras</h1>
-                <div class="products">
+                <div class="products" id="products">
                     <div>
                         <p>producto1</p>
                         <p>precio</p>
@@ -27,27 +28,20 @@
                         <p>producto1</p>
                         <p>precio</p>
                     </div>
-                    <div>
-                        <p>producto1</p>
-                        <p>precio</p>
-                    </div>
-                    <div>
-                        <p>producto1</p>
-                        <p>precio</p>
-                    </div>
+                    
                 </div>
                 <div class="totales">
                     <div class="totales-text">
-                        <h3>Subtotal</h3><span>h</span>
+                        <h3>Subtotal</h3><span id="subtotal">0</span>
                     </div>
                     <div class="totales-text">
-                        <p>Impuestos</p><span>h</span>
+                        <p>Impuestos</p><span id="impuestos">0</span>
                     </div>
                     <div class="totales-text">
-                        <p>Envío</p><span>h</span>
+                        <p>Envío</p><span id="envio">0</span>
                     </div>
                     <div class="totales-text total-alejado">
-                        <h2>Total</h2><span>h</span>
+                        <h2>Total</h2><span id="total">0</span>
                     </div>
                     <button onclick="">PAGAR</button>
                 </div>
