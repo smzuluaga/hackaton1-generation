@@ -27,9 +27,9 @@
                     <!-- Enlaces de navegación -->
                     <div class="links">
                         <a href="#Inicio" class="link">Inicio</a>
-                        <a href="#Nosotros" class="link">Nosotros</a>
-                        <a href="#Productos" class="link">Productos</a>
-                        <a href="#Compras" class="link link--active">   <i class="bx bx-cart"></i> Compras </a> 
+                        <a href="#nosotros" class="link">Nosotros</a>
+                        <a href="#productos" class="link">Productos</a>
+                        <a href="#sect-carrito1" class="link link--active">   <i class="bx bx-cart"></i> Compras </a> 
                     </div>
                 </div>
             </nav>
@@ -75,7 +75,7 @@
     <!--HEADER / BANNER -SANTI // LINEA 201 - 400 -->
     <main>
         <section>
-            <h1>PRODUCTOS</h1>
+            <h1 id="productos">PRODUCTOS</h1>
             <div class=" ea-productos-container1">
                 <div class="ea-flex-categoriaprods" id="categoria-prods1">
                     <h2>Papeles & Libretas</h2>
@@ -282,13 +282,13 @@
                     <button class="ea-stbutton_vertodo" onclick="">ver todos</button>
                 </div>
             </div>
-            <button onclick="goToCarrito()" class="boton-gotoCarrito">Ir al Carrito de Compras</button>
+            <a href="#sect-carrito1" class="boton-gotoCarrito">Ir al Carrito de Compras</a>
         </section>
     </main>
     <!-- FOOTER VALE -> //-->
     <footer>
         <!--Sección NOSOTROS-->
-        <section class="ea-st-ContainerNosotros">
+        <section class="ea-st-ContainerNosotros" id="nosotros">
             <!-- NOSOTROS-->   
             <h2 class="ea-st-nosotrosTitle">Nosotros</h2>
             <div class="ea-nosotrosflex">        
@@ -374,7 +374,7 @@
             </div>
         </footer>
 
-        <section class="sect-carrito" id="sect-carrito">
+        <section class="sect-carrito" id="sect-carrito1">
             <div class="container-carrito">
                 <div class="carrito">
                     <a href="index.html"><i class='bx bxs-x-circle'></i></a>
